@@ -5,7 +5,7 @@ module.exports = function getZerosCount(number) {
   // A trailing zero is formed when a 
   // multiple of 5 is multiplied with a multiple of 2.
   
-  while ( > 0) {
+  while ( number > 0) {
     number = Math.floor(number / 5);
     zeros += number
   }
